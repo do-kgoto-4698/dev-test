@@ -4,5 +4,5 @@ jobs:
   sample:
     name: hello-world
     runs-on: ubuntu-latest
-    ateps:
+    steps:
       - run: echo "hello world"
