@@ -1,0 +1,8 @@
+name: "hello"
+on: [push]
+jobs:
+  sample:
+    name: hello-world
+    runs-on: ubuntu-latest
+    ateps:
+      - run: echo "hello world"
